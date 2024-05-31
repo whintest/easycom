@@ -6,7 +6,7 @@ const secretKey = require('./app/config/auth.config')
 const app = express();
 
 var corsOptions = {
-  origin: "http://54.255.187.134:8080"
+  origin: "http://54.255.187.134:9000"
 };
 
 app.use(cors(corsOptions));
